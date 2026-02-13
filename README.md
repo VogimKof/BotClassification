@@ -34,30 +34,30 @@ Celem projektu jest przeprowadzenie klasyfikacji kont użytkowników platformy v
 
 ### Struktura projektu
 
-##1. Wprowadzenie
-    - Przedmiot oraz cel i zakres badania
+## 1. Wprowadzenie
+  - Przedmiot oraz cel i zakres badania
     
-##2. Eksploracja i analiza danych
-    - Opis zbioru danych/zmiennych
-    - Analiza wartości brakującyh i odstających
-    - Czyszczenie i kodowanie danych 
-    - Analiza statystyczna zmiennych 
+## 2. Eksploracja i analiza danych
+  - Opis zbioru danych/zmiennych
+  - Analiza wartości brakującyh i odstających
+  - Czyszczenie i kodowanie danych 
+  - Analiza statystyczna zmiennych 
     
-##3. Wizualizacja danych
-    - Wizualizacja rozkładów danych oraz zależności międzu cechami a klasą docelową
-    - Eksploracyjna analiza danych 
+## 3. Wizualizacja danych
+  - Wizualizacja rozkładów danych oraz zależności międzu cechami a klasą docelową
+  - Eksploracyjna analiza danych 
     
-##4. Przetwarzanie danych
-    - Podział na zbiór testowy i treningowy 
-    - Badanie korelacji zmiennych 
-    - Skalowanie 
-    - Wybór cech 
+## 4. Przetwarzanie danych
+  - Podział na zbiór testowy i treningowy 
+  - Badanie korelacji zmiennych 
+  - Skalowanie 
+  - Wybór cech 
     
-##5. Stworzenie modeli
-    - Wybór modeli i optymalizacja hiperparametrów
-    - Ocena skuteczności modeli
+## 5. Stworzenie modeli
+  - Wybór modeli i optymalizacja hiperparametrów
+  - Ocena skuteczności modeli
     
-##6. Podsumowanie wyników i wnioski
-    - Podsumowanie badania i sformułowanie wniosków
+## 6. Podsumowanie wyników i wnioski
+  - Podsumowanie badania i sformułowanie wniosków
 
 ## Zbiór danych znajdziesz [tutaj](http://kaggle.com/datasets/juice0lover/users-vs-bots-classification).
