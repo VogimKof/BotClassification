@@ -1,56 +1,58 @@
-## Projekt 2: Klasyfikacja
+## Klasyfikacja użytkowników i botów
 
-### Wprowadzenie
+### Cel projektu
 
-Celem tego projektu jest przeprowadzenie **analizy klasyfikacyjnej** na wybranym zbiorze danych. Projekt ma charakter praktyczny i wymaga zastosowania minimum trzech różnych metod klasyfikacyjnych oraz stworzenia modelu hybrydowego.
+Celem projektu jest przeprowadzenie klasyfikacji kont użytkowników platformy vk.com w celu odróżnienia kont autentycznych od botów za pomocą metod uczenia maszynowego. 
 
 ### Wymagania dotyczące danych
 
-* **Rodzaj danych:** Własne dane, dane z repozytoriów Machine Learningu (np. UCI), lub dane z pakietów w R.
-* **Wielkość zbioru:** Minimum **10 zmiennych** i minimum **800 obserwacji**.
+- Zbiór danych musi zawierać:
+  - Minimum 10 zmiennych objaśniających (cech)
+  - Zarówno zmienne kategoryczne, jak i ciągłe
+  - Minimalna liczba obserwacji: 1000
+- Źródła danych:
+  - Własne zbiory danych
+  - Publicznie dostępne repozytoria (np. Kaggle, UCI ML Repository)
+  - API z danymi
+- Problem musi być jednoznacznie zdefiniowany jako:
+  - Klasyfikacja (binarna lub wieloklasowa)
+  - Regresja
+ 
+### Wymagania techniczne
+- Jakość kodu:
+  - Czytelność i odpowiednie formatowanie kodu
+  - Zgodność ze standardem PEP 8
+  - Logiczny podział na sekcje
+  - Komentarze wyjaśniające kluczowe fragmenty kodu
+  
+- Wykorzystane biblioteki (minimalny zakres):
+  - NumPy i Pandas - przetwarzanie danych
+  - Matplotlib/Seaborn - wizualizacja danych
+  - Scikit-learn - budowa modeli i tworzenie pipeline'ów danych
+ 
+### Technologie
 
 ### Struktura projektu
 
-Projekt powinien zawierać następujące sekcje:
+**1. Wprowadzenie**
+    - Przedmiot oraz cel i zakres badania
+**2. Eksploracja i analiza danych**
+    - Opis zbioru danych/zmiennych
+    - Analiza wartości brakującyh i odstających
+    - Czyszczenie i kodowanie danych 
+    - Analiza statystyczna zmiennych 
+**3. Wizualizacja danych***
+    - Wizualizacja rozkładów danych oraz zależności międzu cechami a klasą docelową
+    - Eksploracyjna analiza danych 
+**4. Przetwarzanie danych**
+    - Podział na zbiór testowy i treningowy 
+    - Badanie korelacji zmiennych 
+    - Skalowanie 
+    - Wybór cech 
+**5. Stworzenie modeli**
+    - Wybór modeli i optymalizacja hiperparametrów
+    - Ocena skuteczności modeli
+**6. Podsumowanie wyników i wnioski**
+    - Podsumowanie badania i sformułowanie wniosków
 
-* **Tytuł pracy**
-* **Autorzy/Autor**
-* **Streszczenie** (maksymalnie 150 słów)
-* **Słowa kluczowe**
-* **Wprowadzenie**
-    ### Przedmiot badania
-    * **Cel**
-    * **Wstępna analiza danych**
-        * Przedstawienie dostępnych zmiennych
-        * **Statystyki opisowe** (przynajmniej: średnia, mediana, minimum, maksimum, odchylenie standardowe, skośność)
-        * **Podstawowa wizualizacja** – np. boxplot, histogramy
-        * **Transformacje danych** (skalowanie, logarytmowanie)
-        * **Braki danych** – czy występują i jak je obsłużono
-        * **Obserwacje odstające** i w jaki sposób je obsłużono
-    ### Opis metod
-    * Minimum **trzy metody klasyfikacyjne** i stworzenie **modelu hybrydowego** (np. średnia ważona score’ów z metod). Formalnie więc: minimum cztery mechanizmy decyzyjne.
-    * **Cytowanie** pracy, w której zaproponowano metodę (ewentualnie pracy, w której użyto metodę) i ogólny opis działania metody.
-    ### Rezultaty
-    * **Mierniki** (np. AUC, Accuracy, F1 Score) – minimum jeden.
-    * **Sposób walidacji** (np. krzyżowa, leave-one-out, wielokrotne próbkowanie) – minimum jeden sposób.
-    ### Przykład użycia
-    * **Przykład użycia modeli** na stworzonych sztucznie obserwacjach.
-    ### Bibliografia
-
-### Co należy oddać?
-
-Możliwe formaty oddawania projektu:
-
-1.  **Zbiór danych** + **Plik z opisem** (PDF) + **Plik z obliczeniami** (w zależności od użytego środowiska: `.R`, `.py`, `.xlsx`).
-2.  **Zbiór danych** + **Jupyter Notebook** (`.ipynb` i wygenerowany `.html`).
-3.  **Zbiór danych** + **R Notebook** (`.Rmd` i wygenerowany `.html`).
-
-### Grupy
-
-Projekt może być realizowany w grupach maksymalnie **5-osobowych**.
-
-### Jak sformatować plik z opisem?
-
-Sugerowane formatowanie podobne do artykułu naukowego z wybranego czasopisma (bez limitu stron). Przykładowo: http://qme.sggw.pl/wp-content/uploads/MIBE_Szablon2019.docx
-
-Pliki z projektem powinny zostać załadowane na MS Teams bez archiwizowania.
+## Zbiór danych znajdziesz [tutaj](http://kaggle.com/datasets/juice0lover/users-vs-bots-classification).
