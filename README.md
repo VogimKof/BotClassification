@@ -1,10 +1,10 @@
 ## Klasyfikacja użytkowników i botów
 
-### Cel projektu
+## Cel projektu
 
 Celem projektu jest przeprowadzenie klasyfikacji kont użytkowników platformy vk.com w celu odróżnienia kont autentycznych od botów za pomocą metod uczenia maszynowego. 
 
-### Wymagania dotyczące danych
+## Wymagania dotyczące danych
 
 - Zbiór danych musi zawierać:
   - Minimum 10 zmiennych objaśniających (cech)
@@ -18,7 +18,7 @@ Celem projektu jest przeprowadzenie klasyfikacji kont użytkowników platformy v
   - Klasyfikacja (binarna lub wieloklasowa)
   - Regresja
  
-### Wymagania techniczne
+## Wymagania techniczne
 - Jakość kodu:
   - Czytelność i odpowiednie formatowanie kodu
   - Zgodność ze standardem PEP 8
@@ -30,9 +30,17 @@ Celem projektu jest przeprowadzenie klasyfikacji kont użytkowników platformy v
   - Matplotlib/Seaborn - wizualizacja danych
   - Scikit-learn - budowa modeli i tworzenie pipeline'ów danych
  
-### Technologie
+## Technologie
 
-### Struktura projektu
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-blue?logo=numpy)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green?logo=plotly)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Viz-9cf)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
+
+## Struktura projektu
 
 ## 1. Wprowadzenie
   - Przedmiot oraz cel i zakres badania
