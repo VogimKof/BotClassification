@@ -69,7 +69,7 @@ Celem projektu jest przeprowadzenie klasyfikacji kont użytkowników platformy v
 
 ## Wyniki 
 
-| Model                 | Accuracy | Precision | Recall | roc-auc |
+| Model                 | Accuracy | Precision | Recall | ROC-AUC |
 |-----------------------|----------|-----------|--------|---------|
 | Las Losowy            |  0.956   |   0.953   | 0.960  |  0.956  |
 | Gradient Boosting     |  0.967   |   0.957   | 0.977  |  0.966  |
