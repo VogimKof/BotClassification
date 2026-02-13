@@ -1,6 +1,6 @@
 ## Klasyfikacja użytkowników i botów
 
-## Cel projektu
+### Cel projektu
 
 Celem projektu jest przeprowadzenie klasyfikacji kont użytkowników platformy vk.com w celu odróżnienia kont autentycznych od botów za pomocą metod uczenia maszynowego. 
 
@@ -15,8 +15,7 @@ Celem projektu jest przeprowadzenie klasyfikacji kont użytkowników platformy v
   - Publicznie dostępne repozytoria (np. Kaggle, UCI ML Repository)
   - API z danymi
 - Problem musi być jednoznacznie zdefiniowany jako:
-  - Klasyfikacja (binarna lub wieloklasowa)
-  - Regresja
+  - Klasyfikacja (binarna lub wieloklasowa) lub Regresja
  
 ## Wymagania techniczne
 - Jakość kodu:
@@ -47,12 +46,12 @@ Celem projektu jest przeprowadzenie klasyfikacji kont użytkowników platformy v
     
 ## 2. Eksploracja i analiza danych
   - Opis zbioru danych/zmiennych
-  - Analiza wartości brakującyh i odstających
+  - Analiza wartości brakujących i odstających
   - Czyszczenie i kodowanie danych 
   - Analiza statystyczna zmiennych 
     
 ## 3. Wizualizacja danych
-  - Wizualizacja rozkładów danych oraz zależności międzu cechami a klasą docelową
+  - Wizualizacja rozkładów danych oraz zależności między cechami a klasą docelową
   - Eksploracyjna analiza danych 
     
 ## 4. Przetwarzanie danych
@@ -63,9 +62,18 @@ Celem projektu jest przeprowadzenie klasyfikacji kont użytkowników platformy v
     
 ## 5. Stworzenie modeli
   - Wybór modeli i optymalizacja hiperparametrów
-  - Ocena skuteczności modeli
+  - Ocena skuteczności modeli, walidacja krzyżowa
     
 ## 6. Podsumowanie wyników i wnioski
   - Podsumowanie badania i sformułowanie wniosków
+
+## Wyniki 
+
+| Model                 | Accuracy | Precision | Recall | roc-auc |
+|-----------------------|----------|-----------|--------|---------|
+| Las Losowy            |  0.956   |   0.953   | 0.960  |  0.956  |
+| Gradient Boosting     |  0.967   |   0.957   | 0.977  |  0.966  |
+| Regresja Logistyuczna |  0.955   |   0.950   | 0.962  |  0.955  |
+
 
 ## Zbiór danych znajdziesz [tutaj](http://kaggle.com/datasets/juice0lover/users-vs-bots-classification).
